@@ -34,7 +34,7 @@ To get this project up and running, you'll need to configure both the Arduino ha
 ### 1. Prerequisites
 
 * **Hardware:**
-    * Arduino board (e.g., Uno, Nano)
+    * Arduino board (Uno)
     * 4WD Robot Car Chassis (or similar mobile platform)
     * L298N Motor Driver Module
     * HC-05 or HC-06 Bluetooth Module
@@ -50,12 +50,12 @@ To get this project up and running, you'll need to configure both the Arduino ha
 1.  **Navigate to the Arduino Code:**
     Change directory to the Arduino project folder:
     ```bash
-    cd arduino_code/your_arduino_sketch/
+    cd Arduino code of the robot prototype
     ```
-    *(Note: Ensure your main Arduino sketch file is named `your_arduino_sketch.ino` within this folder).*
+    *(Note: Ensure your main Arduino sketch file is named `arduino code.ino` within this folder).*
 
 2.  **Open in Arduino IDE:**
-    Open the `your_arduino_sketch.ino` file using the Arduino IDE.
+    Open the `arduino code.ino` file using the Arduino IDE.
 
 3.  **Install Libraries (if any):**
     If the sketch uses any external libraries (e.g., for specific sensors or motor control), install them via `Sketch > Include Library > Manage Libraries...` in the Arduino IDE. Common libraries might include `SoftwareSerial` (for HC-05/06) or specific motor control libraries.
@@ -77,7 +77,7 @@ To get this project up and running, you'll need to configure both the Arduino ha
 1.  **Navigate to the Python Code:**
     Change directory to the Python project folder:
     ```bash
-    cd python_gui_voice_assistant/
+    cd Lina voice assistant GUI/
     ```
 
 2.  **Create a Virtual Environment (Recommended):**
